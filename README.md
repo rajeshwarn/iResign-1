@@ -10,3 +10,8 @@ makecert -pe -n "CN=PowerShell User" -ss MY -a sha1 -eku 1.3.6.1.5.5.7.3.3 -iv r
 ```
 
 (http://stackoverflow.com/a/18583725)
+
+
+# To Do
+* This is definitely just a hack right now, the output paths are hard coded.
+* Needs command line options, more verbose output, ability to skip packages that are already signed by trusted certs etc
