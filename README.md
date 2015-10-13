@@ -1,3 +1,6 @@
+# Currently not working - for some reason NuGet doesn't like the packages I create. I'm working on it.
+
+
 # iResign
 ## What to do when $BIGCOMPANY enforces AllSigned via Group Policy
 This application will sign the ps1 files inside NuGet packages with a codesigning certificate, then repack them for use in a local package cache.
